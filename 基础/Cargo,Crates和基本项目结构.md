@@ -30,15 +30,19 @@ Cargo是Rust内置的包管理器。但它主要用来：
 
 第一个命令创建：
 
+```
 ├── Cargo.toml
 └── src
-​	└── main.rs
+	└── main.rs
+```
 
 第二个命令创建：
 
+```
 ├── Cargo.toml
 └── src
 ​	└── lib.rs
+```
 
 Cargo.toml(大写C)是配置文件，包含了Cargo需要编译项目的所有元数据。
 
